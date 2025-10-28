@@ -33,6 +33,7 @@ Fully featured Personal Library Management system with secure authentication and
 ### Advanced Features
 
 - Redis caching for performance
+- Pagination both frontend and backend
 - Full TypeScript implementation
 - Docker containerization
 - Responsive Material-UI design
