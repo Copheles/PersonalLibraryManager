@@ -55,6 +55,7 @@ export default function BooksPage() {
         onSuccess: () => {
           setIsDeleteDialogOpen(false);
           setDeletingBook(null);
+          setPage(1)
         },
       });
     }
