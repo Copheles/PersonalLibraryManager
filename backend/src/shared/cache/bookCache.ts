@@ -29,6 +29,9 @@ class BookCache {
     for await (const key of redisCache.client.scanIterator({ MATCH: pattern, COUNT: 100 })) {
       keys.push(key);
     }
+
+    console.log('Delete by pattern, keys: ', keys)
+
     if (keys.length > 0) await redisCache.client.del(keys);
   }
 

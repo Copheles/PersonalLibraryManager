@@ -73,6 +73,7 @@ export default function BooksPage() {
         { id: editingBook._id as string, data: formData },
         {
           onSuccess: () => {
+            setPage(1);
             setIsFormOpen(false);
             setEditingBook(null);
           },
