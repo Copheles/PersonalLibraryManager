@@ -84,7 +84,7 @@ docker-compose run --rm backend npm run seed
 **To run frontend**
 
 ```bash
-cd frontend && npm run dev
+cd frontend && npm install && npm run dev
 ```
 
 ### Login Info
